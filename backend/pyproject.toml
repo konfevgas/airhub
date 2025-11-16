@@ -5,7 +5,11 @@ description = "KinderHub backend API using FastAPI"
 authors = [{name = "Marios"}]
 requires-python = ">=3.10"
 dependencies = [
+    "alembic>=1.17.2",
     "fastapi",
+    "psycopg[binary]>=3.2.12",
+    "python-dotenv>=1.2.1",
+    "sqlalchemy>=2.0.44",
     "uvicorn[standard]",
 ]
 
