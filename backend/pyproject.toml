@@ -3,10 +3,12 @@ name = "kinderhub-backend"
 version = "0.1.0"
 description = "KinderHub backend API using FastAPI"
 authors = [{name = "Marios"}]
+requires-python = ">=3.10"
 dependencies = [
     "fastapi",
     "uvicorn[standard]",
 ]
 
 [tool.uv]
-python = ">=3.10"
+# You can add extra uv settings here if needed, but NOT python version
+python-preference = "system"
