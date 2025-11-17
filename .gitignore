@@ -15,3 +15,7 @@ env/
 
 # IDEs and editors
 .vscode/
+
+
+# Notebooks
+.notebooks/
