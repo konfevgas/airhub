@@ -3,6 +3,7 @@ authors = [{name = "Kostas Fevgas"}]
 dependencies = [
   "alembic>=1.17.2",
   "fastapi",
+  "loguru>=0.7.3",
   "psycopg[binary]>=3.2.12",
   "pytest>=9.0.1",
   "pytest-asyncio>=1.3.0",
